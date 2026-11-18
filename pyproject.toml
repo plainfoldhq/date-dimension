@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retailcal"
+version = "1.0.0"
+description = "52/53-week retail and fiscal calendars (4-4-5, 4-5-4, 5-4-4, NRF-style) as CSV. Standard library only."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "Plainfold", email = "plainfoldhq@proton.me" }]
+keywords = ["fiscal calendar", "retail calendar", "4-4-5", "4-5-4", "5-4-4", "52-53 week", "NRF", "date dimension", "data warehouse"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Topic :: Database",
+]
+
+[project.urls]
+Homepage = "https://github.com/plainfoldhq/date-dimension"
+
+[project.scripts]
+retailcal = "retailcal:main"
