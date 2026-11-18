@@ -4,7 +4,7 @@
 
 `retailcal` builds any 52/53-week fiscal or retail calendar (4-4-5, 4-5-4, 5-4-4) as CSV: fiscal year, quarter, period, week, week of period, day of fiscal year, and period/week start and end dates. It needs Python 3 and nothing else (standard library only).
 
-Install with `pip install retailcal` (once published) or run from a clone with `PYTHONPATH=src python3 -m retailcal ...`.
+Install with `pip install retailcal` or run from a clone with `PYTHONPATH=src python3 -m retailcal ...`.
 
 ```
 # NRF-style 4-5-4 retail calendar (year ends Saturday nearest January 31)
@@ -29,6 +29,10 @@ cal.row(date(2025, 11, 28)) # fiscal year, quarter, period, week, ...
 ```
 
 Presets: `nrf-454`, `445-sat-nearest-dec`, `544-sat-nearest-dec`, `445-sat-last-sep`. Rules: `nearest` = the year ends on the chosen weekday nearest the last day of the end month; `last` = the last such weekday of the month. A 53rd week goes to period 12 unless `--extra-week-period` says otherwise.
+
+## Reference pages
+
+[4-5-4 retail calendar by fiscal year](https://plainfoldhq.github.io/retail-calendar-4-5-4/) and [53-week fiscal years 2000-2050](https://plainfoldhq.github.io/53-week-fiscal-years/), generated with `retailcal`.
 
 ## Guides
 - [4-4-5, 4-5-4 and 5-4-4 retail calendars explained (52/53-week years)](docs/retail-445-454-544-calendar-explained.md)
