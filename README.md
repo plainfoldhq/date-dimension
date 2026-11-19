@@ -35,8 +35,8 @@ Presets: `nrf-454`, `445-sat-nearest-dec`, `544-sat-nearest-dec`, `445-sat-last-
 [4-5-4 retail calendar by fiscal year](https://plainfoldhq.github.io/retail-calendar-4-5-4/) and [53-week fiscal years 2000-2050](https://plainfoldhq.github.io/53-week-fiscal-years/), generated with `retailcal`. For ISO 8601 weeks: [ISO week numbers by year](https://plainfoldhq.github.io/week-numbers/).
 
 ## Guides
-- [4-4-5, 4-5-4 and 5-4-4 retail calendars explained (52/53-week years)](docs/retail-445-454-544-calendar-explained.md)
-- [Build and load a date dimension table (dim_date) with SQL](docs/date-dimension-table-sql.md)
+- [4-4-5, 4-5-4 and 5-4-4 retail calendars explained (52/53-week years)](https://github.com/plainfoldhq/date-dimension/blob/main/docs/retail-445-454-544-calendar-explained.md)
+- [Build and load a date dimension table (dim_date) with SQL](https://github.com/plainfoldhq/date-dimension/blob/main/docs/date-dimension-table-sql.md)
 
 ## Free sample data
 

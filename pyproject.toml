@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "retailcal"
-version = "1.0.0"
+version = "1.0.1"
 description = "52/53-week retail and fiscal calendars (4-4-5, 4-5-4, 5-4-4, NRF-style) as CSV. Standard library only."
 readme = "README.md"
 license = "MIT"
@@ -21,6 +21,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/plainfoldhq/date-dimension"
+Documentation = "https://plainfoldhq.github.io/retail-calendar-4-5-4/"
+Source = "https://github.com/plainfoldhq/date-dimension"
+Issues = "https://github.com/plainfoldhq/date-dimension/issues"
 
 [project.scripts]
 retailcal = "retailcal:main"
