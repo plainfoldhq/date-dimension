@@ -63,6 +63,7 @@ Tests confirm known NRF fiscal years (for example, fiscal 2024 = February 4 2024
 ## Related
 - [plainfoldhq/us-federal-calendar](https://github.com/plainfoldhq/us-federal-calendar): US federal holidays, NYSE trading days and Federal Reserve holidays as CSV/ICS (Python package `usbizdays`); [full set on Polar](https://buy.polar.sh/polar_cl_oW9ytw22HhxLxOnke3W8ibcgTXepc2hYuAEyl1gTqqB).
 - [plainfoldhq/tz-transitions](https://github.com/plainfoldhq/tz-transitions): IANA time zone transitions 1970-2050 and DST test vectors.
+- [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
 
 ## License
 
