@@ -64,6 +64,9 @@ Tests confirm known NRF fiscal years (for example, fiscal 2024 = February 4 2024
 - [plainfoldhq/us-federal-calendar](https://github.com/plainfoldhq/us-federal-calendar): US federal holidays, NYSE trading days and Federal Reserve holidays as CSV/ICS (Python package `usbizdays`); [full set on Polar](https://buy.polar.sh/polar_cl_oW9ytw22HhxLxOnke3W8ibcgTXepc2hYuAEyl1gTqqB).
 - [plainfoldhq/tz-transitions](https://github.com/plainfoldhq/tz-transitions): IANA time zone transitions 1970-2050 and DST test vectors.
 - [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
+- [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 20 countries and regions, 2026-2028, cross-checked against two independent implementations.
+- [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
+- All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl).
 
 ## License
 
