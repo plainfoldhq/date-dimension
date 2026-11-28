@@ -193,6 +193,16 @@ The daily CSV has 16 columns: `date`, `fiscal_year`, `fiscal_quarter`, `fiscal_p
 - For a full date table that joins these columns to calendar columns, see the [date dimension table guide](date-dimension-table-sql.md).
 - Not accounting or tax advice.
 
+## Want it ready-made?
+
+The [date dimension + retail calendar pack](https://buy.polar.sh/polar_cl_dQIvyRLcbGYoTfZgVmsIENITeo4Zu2zok8JI94KfqWn?utm_source=github&utm_medium=readme&utm_campaign=C&utm_content=date-dimension) ($19, one-time; Polar is the merchant of record and handles sales tax) has it built:
+
+- `dim_date` for 2000-2050 (18,628 rows, 45 columns, including US holidays and NYSE trading days) as CSV and SQLite
+- Four precomputed fiscal calendars 2000-2050 (NRF 4-5-4 and three 4-4-5 / 5-4-4 variants) and a fiscal-year summary table
+- PostgreSQL tables + a tested load script, and a dbt seed config with column types and tests
+
+It is also in the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=github&utm_medium=readme&utm_campaign=BUNDLE&utm_content=date-dimension) (US business-day calendar, date dimension and time zone packs) for $35 instead of $49. Full contents: [README](../README.md).
+
 ---
 
 Made by Plainfold. Written with AI assistance.
